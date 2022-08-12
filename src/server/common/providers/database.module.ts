@@ -5,6 +5,7 @@ import { databaseProviders } from './database.provider';
     components: [...databaseProviders],
     exports: [...databaseProviders]
 })
+
 export class DatabaseModule {
 
 }

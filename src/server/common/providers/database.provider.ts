@@ -3,10 +3,10 @@ import { SqlServerConnectionOptions } from 'typeorm/driver/sqlserver/SqlServerCo
 
 const options: SqlServerConnectionOptions = {
     type: 'mssql',
-    host: '[YOUR_HOST_HERE]',
-    username: '[YOUR_USER_HERE]',
-    password: '[YOUR_PASSWORD_HERE]',
-    database: '[YOUR_DATABASE_NAME_HERE]',
+    host: 'localhost',
+    username: 'sa',
+    password: 'PASSWORD_HERE',
+    database: 'SampleDB',
     cache: true,
     entities: ['src/server/common/data/models/**/*.model{.ts,.js}'],
     synchronize: true,
